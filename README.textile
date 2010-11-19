@@ -71,7 +71,8 @@ look for Luis Lavena's latest Ruby Installer (http://rubyforge.org/projects/ruby
 
 h1. IMPORTANT: Command-T
 
-Command-T is not working for me some how so I am using the legacy FuzzyFinder by Takeshi NISHIDA
+Command-T is not working for me some how so I am using the legacy FuzzyFinder by Takeshi NISHIDA.
+Command_t is still available.
 
 h2. Learn Vim
 
