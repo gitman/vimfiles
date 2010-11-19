@@ -16,7 +16,7 @@ Clone this repo into your home directory either as .vim (linux/mac) or
 vimfiles (Windows). Such as:
 
 <pre><code>
-git clone git://github.com/akitaonrails/vimfiles.git ~/.vim
+git clone git@github.com:gitman/vimfiles.git ~/.vim
 </pre></code>
 
 Then 'cd' into the repo and run this to get the snippets submodule:
@@ -71,25 +71,7 @@ look for Luis Lavena's latest Ruby Installer (http://rubyforge.org/projects/ruby
 
 h1. IMPORTANT: Command-T
 
-The latest version replaces the old Fuzzy Finder with a new one called 
-"Command-T" form wincent.com. I've replaced the old "Command-T" key 
-binding that used to open new tabs and assigned it to this new plugin
-so it behaves the same as Textmate.
-
-You may have problems in Mac/Linux because this plugin requires a native
-extension, so you will have to do this:
-
-<pre><code>
-cd ~/.vim/bundle/Command-T/ruby/command-t
-ruby extconf.rb
-make
-</pre></code>
-
-This means that you need to have your Ruby source files and GCC also 
-installed. A binary for Windows is already bundled so it should just
-work. I've also included a binary compiled for Ruby Enterprise Edition,
-but if you are using other Ruby distros, you will need to recompile.
-
+Command-T is not working for me some how so I am using the legacy FuzzyFinder by Takeshi NISHIDA
 
 h2. Learn Vim
 
@@ -104,5 +86,4 @@ h2. Credits
 
 * Original project and most of the heavy lifting: @scrooloose
 * All the cool plugins for Rails, Cucumber and more: @timpope
-* Great Command-T plugin by: Wincent
-* Hacks and some snippets: @akitaonrails
+* Hacks: @gitman
