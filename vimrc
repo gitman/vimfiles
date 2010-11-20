@@ -401,3 +401,9 @@ vmap <D-[> <gv
 vmap <D-]> >gv
 
 let ScreenShot = {'Icon':0, 'Credits':0, 'force_background':'#FFFFFF'} 
+
+set selection=inclusive
+if has("gui_macvim")
+    let macvim_hig_shift_movement = 1
+endif
+
