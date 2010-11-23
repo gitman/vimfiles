@@ -297,7 +297,7 @@ endif
 " nmap <silent> <Leader>q <Plug>PeepOpen
 
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
-nnoremap <silent> <C-f> :call FindInNERDTree()<CR> 
+nnoremap <silent> <C-f> :call FindInNERDTree()<CR>
 
 "make <c-l> clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
@@ -400,7 +400,7 @@ nmap <D-]> >>
 vmap <D-[> <gv
 vmap <D-]> >gv
 
-let ScreenShot = {'Icon':0, 'Credits':0, 'force_background':'#FFFFFF'} 
+let ScreenShot = {'Icon':0, 'Credits':0, 'force_background':'#FFFFFF'}
 
 set selection=inclusive
 if has("gui_macvim")
@@ -408,3 +408,7 @@ if has("gui_macvim")
 endif
 
 autocmd BufWritePre * :%s/\s\+$//e
+
+let g:ruby_debugger_progname = 'mvim'
+let g:ruby_debugger_spec_path = '$HOME/.rvm/gems/ruby-1.9.2-p0@rails30/bin/rspec'
+
