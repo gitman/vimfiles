@@ -410,5 +410,5 @@ endif
 autocmd BufWritePre * :%s/\s\+$//e
 
 let g:ruby_debugger_progname = 'mvim'
-let g:ruby_debugger_spec_path = '$HOME/.rvm/gems/ruby-1.9.2-p0@rails30/bin/rspec'
+let g:ruby_debugger_spec_path = '$GEM_HOME/bin/rspec'
 
